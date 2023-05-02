@@ -1,0 +1,307 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    width: 100vw;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 50px;
+    height: 40px;
+    padding: 32px;
+}
+
+table, td, tr, th{
+    text-align: center;
+    font-size: 1.8rem;
+    border: 2px solid cornflowerblue;
+    border-collapse: collapse;
+    width: 50%;
+    height: 90px;
+    margin-left: 25rem;
+}
+table a{
+    text-decoration: none;
+    color: red;
+}
+table a:hover{
+    background-color: red;
+    color: yellow;
+    border-radius: 10px;
+}
+
+.download-content{
+    background-color: black;
+    text-align: center; 
+}
+.dlink{
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid ;
+    border-radius: 40px;
+    width: 190px;
+    font-size: 40px;
+    background-color: yellow;
+    color: #111; 
+    margin-left: 44rem;
+}
+.dlink a{
+    text-decoration: none;
+    text-align: center;
+    color: #111;
+    
+}
+.dlink a:hover{
+    color: yellow;
+}
+.dlink:hover{
+    background-color: red;
+}
+
+.footer-content{
+    height: auto;
+    width: 100vw;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+.footer-bottom{
+    background-color: black;
+    color: bisque;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+
+
+
+
+    table, td, tr, th{
+        width: 78%;
+        height: 110px;
+        margin-left: 4rem;
+    }
+
+
+
+
+
+    .dlink{
+        margin-left: 11.5rem;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+
+    table, td, tr, th{
+        width: 82%;
+        height: 110px;
+        margin-left: 4rem;
+    }
+
+
+
+
+
+    .dlink{
+        margin-left: 14rem;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+
+
+    table, td, tr, th{
+        width: 80%;
+        height: 115px;
+        margin-left: 4rem;
+    }
+
+
+
+
+
+    .dlink{
+        margin-left: 19rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+
+
+
+    table, td, tr, th{
+        width: 80%;
+        height: 115px;
+        margin-left: 5.5rem;
+        font-size: 45px;
+    }
+
+
+
+
+
+    .dlink{
+        margin-left: 24rem;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    table, td, tr, th{
+        width: 80%;
+        height: 115px;
+        margin-left: 5.5rem;
+        font-size: 50px;
+    }
+
+    .dlink{
+        margin-left: 33rem;
+    }
+
+}
+
+@media only screen and (min-width: 1400px){
+
+    table, td, tr, th{
+        width: 80%;
+        height: 115px;
+        margin-left: 5.5rem;
+        font-size: 50px;
+    }
+
+    .dlink{
+        margin-left: 38rem;
+    }
+
+}
+
+@media only screen and (min-width: 1600px){
+
+    table, td, tr, th{
+        width: 80%;
+        height: 115px;
+        margin-left: 5.5rem;
+        font-size: 50px;
+    }
+
+    .dlink{
+        margin-left: 42rem;
+    }
+}
+
+@media only screen and (min-width: 1750px){
+
+
+
+    table, td, tr, th{
+        width: 80%;
+        height: 115px;
+        margin-left: 5.5rem;
+        font-size: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 1900px){
+
+    table, td, tr, th{
+        width: 80%;
+        height: 115px;
+        margin-left: 9rem;
+        font-size: 50px;
+    }
+
+    .dlink{
+        margin-left: 52rem;
+    }
+
+}
+
+
+
+
+
+
+
+
